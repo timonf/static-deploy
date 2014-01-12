@@ -1,5 +1,5 @@
 {
-    "name": "timonf/static-deploy-template",
+    "name": "timonf/static-deploy",
     "description": "StaticDeploy will compile Twig templates and other files. The generated output can run without PHP on any web server.",
     "autoload": {
         "psr-0": { "": "src/" }
