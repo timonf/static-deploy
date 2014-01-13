@@ -27,10 +27,11 @@ interface ParserInterface
     public function getOutputFilename($filename);
 
     /**
+     * Will parse given file and returns the parsed/compiled content
      *
-     * @param  string $content content of given file
+     * @param  string $resource filename to load
      * @return string
      */
-    public function parse($content);
+    public function parse($resource);
 
 }
