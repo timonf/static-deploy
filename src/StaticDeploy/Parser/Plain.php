@@ -1,13 +1,18 @@
 <?php
 
+/*
+ * This file is part of StaticDeploy
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
 namespace StaticDeploy\Parser;
 
 /**
  * Plain parser. Will do nothing.
  *
  * @author Timon <dev@timonf.de>
- *
- * @api
  */
 class Plain implements ParserInterface
 {
