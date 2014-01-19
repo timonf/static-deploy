@@ -11,8 +11,13 @@ namespace StaticDeploy\Configuration;
 
 use StaticDeploy\Parser\Plain;
 use StaticDeploy\Parser\Twig;
-use StaticDeploy\Compiler\Environment;
+use StaticDeploy\Parser\LessPhp;
 
+/**
+ * Loader for all internal plugins
+ *
+ * @author Timon <dev@timonf.de>
+ */
 class Core extends ConfigurationAbstract implements ConfigurationInterface
 {
     /**
@@ -22,7 +27,8 @@ class Core extends ConfigurationAbstract implements ConfigurationInterface
     {
         $this->addParsers(array(
             new Twig(),
-            new Plain()
+            new Plain(),
+            new LessPHP()
         ));
     }
 }

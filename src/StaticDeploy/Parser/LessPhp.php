@@ -46,7 +46,7 @@ class LessPhp implements ParserInterface
     {
         // we want to convert 'example.less' to 'example.css' and
         // 'example.css.less' to 'example.css'
-        if (strpos('.css', $filename) > 0) {
+        if (strpos($filename, '.css') > 0) {
             return str_replace('.less', '', $filename);
         } else {
             return str_replace('.less', '.css', $filename);
