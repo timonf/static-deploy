@@ -15,6 +15,7 @@
             "name": "Timon",
             "email": "dev@timonf.de"
         }
-    ]
+    ],
+    "bin": ["bin/staticdeploy.php"]
 }
 
