@@ -12,7 +12,8 @@ namespace StaticDeploy\Parser\Twig;
 use StaticDeploy\Compiler\Environment;
 
 /**
- * Extension to be loaded in Twig
+ * Extension to be loaded in Twig.
+ * So you can access compiler Environment in Twig.
  *
  * @author Timon <dev@timonf.de>
  */

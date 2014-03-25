@@ -14,7 +14,10 @@ use StaticDeploy\Parser\Twig;
 use StaticDeploy\Parser\LessPhp;
 
 /**
- * Loader for all internal plugins
+ * Loader for all internal plugins.
+ *
+ * You can build your custom Configuration loader using ConfigurationInterface
+ * and ConfigurationAbstract.
  *
  * @author Timon <dev@timonf.de>
  */

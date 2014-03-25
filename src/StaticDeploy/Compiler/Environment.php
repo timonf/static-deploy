@@ -9,6 +9,14 @@
 
 namespace StaticDeploy\Compiler;
 
+/**
+ * Environment class
+ *
+ * Contains the current compiling environment. It is useful to use it
+ * in Twig templates.
+ *
+ * @author Timon <dev@timonf.de>
+ */
 class Environment implements EnvironmentInterface
 {
     /** @var string */

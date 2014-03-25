@@ -89,8 +89,10 @@ class Compiler
     }
 
     /**
-     * @param string $resource
-     * @param string $output
+     * Will parse a given file, and will write it to output directory
+     *
+     * @param string $resource filename of source file
+     * @param string $output directory of destination
      * @throws \Exception
      */
     public function parse($resource, $output)

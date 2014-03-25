@@ -18,7 +18,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Command\Command;
 
 /**
- * Interface for all parsers
+ * Entry point for compiler command line tool
  *
  * @author Timon <dev@timonf.de>
  */
